@@ -1,11 +1,7 @@
-body {
-  font-family: "Arial";
-  background-color: orange;
-}
-
 table,
 td,
 tr {
+  background-color: #dcf2f233;
   padding: 10px;
   border: 2px solid #030303;
   border-collapse: collapse;
@@ -13,4 +9,64 @@ tr {
 
 hr {
   border: 1px solid #030303;
+}
+
+body {
+  background-color: orange;
+  color: #333;
+  font-family: "Comfortaa", cursive;
+  margin: 0 2rem;
+  padding: 0;
+}
+
+.textbox {
+  background-color: #dcf2f2;
+  width: 100%;
+  padding: 8px 20px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  opacity: 0.5;
+  border-radius: 6px;
+}
+
+.textbox2 {
+  background-color: #dcf2f2;
+  width: 100%;
+  padding: 50px 20px;
+  margin: 40px 0;
+  box-sizing: border-box;
+  opacity: 0.5;
+  border-radius: 6px;
+}
+
+.button {
+  text-decoration: none;
+  background-color: orange;
+  font-family: "Comfortaa", cursive;
+  color: #333;
+  opacity: 0.5;
+  font-size: 17px;
+  margin-left: 30px;
+  border: none;
+}
+.a:link {
+  background-color: orange;
+  font-size: 17px;
+  margin-left: 30px;
+  border: none;
+}
+
+/* visited link */
+.a:visited {
+  color: black;
+}
+
+/* mouse over link */
+.a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+.a:active {
+  color: blue;
 }
